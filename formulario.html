@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>DAW</title>
+</head>
+<body>
+    <form action="procesadatos.php">
+        
+        <section class="form-register">
+            <h4>Formulario Película </h4>
+        Título de la película:
+        <input class="controls" name="Nombre" id="Nombres" placeholder="">
+<br>
+Duración:
+<input class="controls" type="time" name="Duración" id="Duración" required>
+<br>
+Director:
+<input class="controls" type="text" name="Director" id="Director" placeholder="">
+Actores:
+<input class="controls" type="text" name="Actores" id="Actores" placeholder="">
+<br>
+Fecha de estreno: 
+<input class="controls" type="date" name="">
+<br>
+Paises:
+<select>
+<option class="controls">USA</option>
+<option class="controls">España</option>
+<option class="controls">Inglaterra</option>
+<option class="controls">Brasil</option>    
+</select>
+
+<br>
+Género:
+<select>
+    <option class="controls">Comedia</option>
+    <option class="controls">Terror</option>
+    <option class="controls">Acción</option>
+    <option class="controls">Aventuras</option>
+    <option class="controls">Drama</option>
+</select>
+  <br>
+  Estrellas:
+  <input class="controls" type="number" name="Estrellas" id="Estrellas" min="-5" max="5">
+  <br>
+
+    Sinopsis:
+  <input class="controls" cols="20" rows="4"></textarea>
+  <br>
+  <p>Estoy de acuerdo con <a href="https://www.youtube.com/shorts/vwfkjMlHwww">Terminos y condiciones</a> </p>
+  <br>
+  <input class="botons" type="submit" value="Enviar">
+
+</section>
+</body>
+</html>
